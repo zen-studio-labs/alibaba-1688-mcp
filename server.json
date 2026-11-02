@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.zen-studio-labs/alibaba-1688-mcp",
+  "title": "1688 & Alibaba.com",
+  "description": "1688 (阿里巴巴1688) and Alibaba.com wholesale products, MOQ, suppliers and store reviews.",
+  "repository": {
+    "url": "https://github.com/zen-studio-labs/alibaba-1688-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/1688-wholesale-scraper,zen-studio/alibaba-scraper,zen-studio/alibaba-supplier-review-scraper",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional when your client supports Apify OAuth sign-in. Otherwise 'Bearer <APIFY_TOKEN>'.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

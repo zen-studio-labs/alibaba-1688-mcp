@@ -1,0 +1,37 @@
+{
+  "name": "alibaba-1688-mcp",
+  "owner": {
+    "name": "Zen Studio",
+    "url": "https://github.com/zen-studio-labs"
+  },
+  "metadata": {
+    "description": "1688 (阿里巴巴1688) and Alibaba.com sourcing tools and skill for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "alibaba-1688",
+      "source": "./",
+      "description": "Search 1688 (阿里巴巴1688) wholesale products and Alibaba.com products and suppliers: tiered prices, MOQ, factory details, supplier ratings and store reviews.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Zen Studio"
+      },
+      "homepage": "https://github.com/zen-studio-labs/alibaba-1688-mcp",
+      "license": "MIT",
+      "keywords": [
+        "1688",
+        "1688.com",
+        "阿里巴巴1688",
+        "alibaba.com",
+        "阿里巴巴",
+        "wholesale",
+        "supplier sourcing",
+        "货源",
+        "ecommerce",
+        "china",
+        "mcp"
+      ],
+      "category": "data"
+    }
+  ]
+}

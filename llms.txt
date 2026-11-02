@@ -1,0 +1,23 @@
+# 1688 & Alibaba.com MCP Server
+
+> Hosted remote MCP server for 1688.com (阿里巴巴1688) and Alibaba.com sourcing data: 1688 wholesale products with tiered prices, MOQ, sales and factory details; Alibaba.com products and verified suppliers with price ladders, MOQ and company profiles; Alibaba.com supplier store reviews. Read-only. No 1688 or Alibaba.com account; users sign in with a free Apify account (OAuth) and pay per result. Not related to Alibaba Cloud.
+
+## Install
+
+- Server name: alibaba-1688
+- Transport: streamable HTTP
+- URL: https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/1688-wholesale-scraper,zen-studio/alibaba-scraper,zen-studio/alibaba-supplier-review-scraper
+- Auth: Apify OAuth in the user's browser; alternative header `Authorization: Bearer <APIFY_TOKEN>`
+- Claude Code plugin: `claude plugin marketplace add zen-studio-labs/alibaba-1688-mcp`, then `claude plugin install alibaba-1688@alibaba-1688-mcp`
+
+## Docs
+
+- [README](https://github.com/zen-studio-labs/alibaba-1688-mcp/blob/main/README.md): setup for every client, tools, pricing, FAQ
+- [README in Chinese](https://github.com/zen-studio-labs/alibaba-1688-mcp/blob/main/README.zh-CN.md)
+- [Skill](https://github.com/zen-studio-labs/alibaba-1688-mcp/blob/main/skills/alibaba-1688/SKILL.md): run flow, input recipes, tool chaining, field sets
+
+## Tools
+
+- zen-studio/1688-wholesale-scraper: 1688 products for keywords or offer IDs, with tiered prices, MOQ, sales, repeat-buyer rate and supplier details
+- zen-studio/alibaba-scraper: Alibaba.com products or supplier profiles for keywords, or a whole category, with price ladders, MOQ and company profiles
+- zen-studio/alibaba-supplier-review-scraper: Alibaba.com supplier store reviews with ratings, buyer country and the store's rating breakdown
