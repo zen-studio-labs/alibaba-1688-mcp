@@ -432,7 +432,11 @@ curl -X POST "https://api.apify.com/v2/acts/zen-studio~1688-wholesale-scraper/ru
 1688 & 阿里巴巴 MCP 基于 [Zen Studio 的 Apify Actors](https://apify.com/zen-studio) 构建。你也可以直接在 Apify 上运行每个工具，通过 API 调用或设置定时任务。
 
 - [闲鱼 MCP（Goofish MCP）](https://github.com/zen-studio-labs/goofish-mcp)：闲鱼二手商品、价格和卖家。
-- [小红书 MCP（RedNote MCP）](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp)：小红书笔记、评论和博主，适合选品和趋势调研。
+- [小红书 MCP（RedNote MCP）](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp)：小红书笔记、评论和博主。
+- [抖音 MCP（Douyin MCP）](https://github.com/zen-studio-labs/douyin-mcp)：抖音视频、博主、评论和商品。
+- [淘宝 & 天猫 MCP（Taobao / Tmall MCP）](https://github.com/zen-studio-labs/taobao-tmall-mcp)：淘宝和天猫商品、价格、SKU 和店铺。
+- [速卖通 MCP（AliExpress MCP）](https://github.com/zen-studio-labs/aliexpress-mcp)：速卖通商品、准确订单量、运费和买家评价。
+- [G2 & Capterra 软件评价 MCP](https://github.com/zen-studio-labs/g2-capterra-reviews-mcp)：G2、Capterra、TrustRadius 和 Gartner Peer Insights 的软件评价。
 
 ## 许可证
 
